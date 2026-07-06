@@ -3,173 +3,225 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AI 강의 신청 페이지</title>
-    <link rel="stylesheet" href="ai-lecture-lp.css" />
+    <title>오늘도빵집 | 홍대입구역 동네 베이커리</title>
+    <meta
+      name="description"
+      content="홍대입구역 근처 오늘도빵집. 매일 아침 직접 구운 빵, 선물 세트, 단체 주문을 인스타그램 DM으로 상담하세요."
+    />
+    <link rel="stylesheet" href="today-bakery-lp.css" />
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="AI 업무 실습 강의 처음으로">
-        <span class="brand-mark">AI</span>
-        <span>업무 실습 강의</span>
+      <a class="brand" href="#top" aria-label="오늘도빵집 처음으로">
+        <img src="src/logo.png" alt="오늘도빵집" />
       </a>
-      <a class="header-cta" href="mailto:stepmailkr@gmail.com" data-consult-button>상담</a>
+      <a class="header-cta" href="https://www.instagram.com/bread_today" data-cta>DM 문의</a>
     </header>
 
-    <main id="top">
+    <main id="top" class="page-shell">
       <section class="hero-section" aria-labelledby="hero-title">
-        <div class="hero-copy">
-          <p class="eyebrow">직장인 · 자영업자 대상</p>
-          <h1 id="hero-title">AI를 내 업무에 바로 쓰는 실습 중심 강의</h1>
-          <p class="hero-description">
-            막연한 이론보다 문서 작성, 마케팅 문구, 고객 응대처럼 오늘 바로 쓰는 업무 예제로 배웁니다.
-          </p>
-          <a class="primary-button" href="mailto:stepmailkr@gmail.com" data-consult-button>무료 상담 신청하기</a>
-          <ul class="trust-list" aria-label="강의 특징">
-            <li>초보자 가능</li>
-            <li>실습 중심</li>
-            <li>업무 적용</li>
-          </ul>
-        </div>
         <div class="hero-media">
-          <img src="ai-lecture-hero.jpg" alt="노트북과 강의 자료가 놓인 AI 업무 실습 장면" />
+          <img src="src/fv.jpg" alt="햇살이 들어오는 베이커리 매장과 갓 구운 빵" />
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">홍대입구역 도보 3분</p>
+          <h1 id="hero-title">오늘 아침 구운 빵을 오늘 가장 맛있게</h1>
+          <p>
+            매일 아침 직접 굽고 당일 판매를 원칙으로 하는 동네 베이커리입니다. 선물 세트와 단체 주문도 예산에 맞춰 안내해 드립니다.
+          </p>
+          <a class="primary-button" href="https://www.instagram.com/bread_today" data-cta>인스타그램 DM 문의하기</a>
+          <dl class="quick-facts" aria-label="오늘도빵집 핵심 정보">
+            <div>
+              <dt>OPEN</dt>
+              <dd>08:00</dd>
+            </div>
+            <div>
+              <dt>GIFT</dt>
+              <dd>2만원부터</dd>
+            </div>
+            <div>
+              <dt>PLACE</dt>
+              <dd>홍대입구역</dd>
+            </div>
+          </dl>
         </div>
       </section>
 
       <section class="section problem-section" aria-labelledby="problem-title">
-        <p class="section-label">문제 제기</p>
-        <h2 id="problem-title">AI를 써야 한다는 건 알지만, 내 일에 붙이는 순간 막막해집니다.</h2>
-        <div class="problem-list">
+        <p class="section-label">고민</p>
+        <h2 id="problem-title">사진만 보고 빵을 고르기엔 걱정되는 것들이 있습니다.</h2>
+        <div class="compact-list">
           <article>
             <span>01</span>
-            <p>어디서부터 시작해야 할지 몰라 몇 번 써보고 멈춥니다.</p>
+            <strong>오래된 빵이면 어떡하지?</strong>
+            <p>겉보기보다 중요한 것은 오늘 먹었을 때의 식감과 향입니다.</p>
           </article>
           <article>
             <span>02</span>
-            <p>강의를 들어도 실제 업무에 어떻게 적용할지 연결이 어렵습니다.</p>
+            <strong>선물 구성이 어색하지 않을까?</strong>
+            <p>받는 사람과 상황에 맞는 구성이면 작은 선물도 더 좋아집니다.</p>
           </article>
           <article>
             <span>03</span>
-            <p>문서, 홍보, 고객 응대에 맞는 질문법을 혼자 찾기 어렵습니다.</p>
+            <strong>단체 주문은 복잡하지 않을까?</strong>
+            <p>날짜, 인원, 예산만 알려주시면 가능한 구성을 빠르게 안내합니다.</p>
           </article>
         </div>
       </section>
 
-      <section class="section benefit-section" aria-labelledby="benefit-title">
-        <p class="section-label">핵심 혜택</p>
-        <h2 id="benefit-title">처음이어도 따라오고, 끝나면 바로 써먹게 구성했습니다.</h2>
-        <div class="benefit-grid">
-          <article class="benefit-card">
-            <span class="card-icon" aria-hidden="true">✓</span>
-            <h3>실습 중심</h3>
-            <p>설명만 듣지 않고 업무 예제를 직접 따라 하며 감을 잡습니다.</p>
+      <section class="section promise-section" aria-labelledby="promise-title">
+        <div class="split-image">
+          <img src="src/profile.jpg" alt="오늘도빵집에서 빵을 준비하는 모습" />
+        </div>
+        <div>
+          <p class="section-label">약속</p>
+          <h2 id="promise-title">많이 쌓아두기보다, 오늘 맛있게 먹을 만큼 굽습니다.</h2>
+          <div class="promise-list">
+            <article>
+              <h3>매일 아침 직접 굽기</h3>
+              <p>식빵, 바게트, 크루아상, 소금빵을 아침부터 준비합니다.</p>
+            </article>
+            <article>
+              <h3>당일 판매 원칙</h3>
+              <p>오래 진열하는 방식보다 필요한 만큼 굽는 방식을 지향합니다.</p>
+            </article>
+            <article>
+              <h3>용도별 구성 제안</h3>
+              <p>선물, 회의 간식, 출근길 한 끼에 맞춰 먹기 좋은 조합을 안내합니다.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section proof-section" aria-labelledby="proof-title">
+        <p class="section-label">신뢰 기준</p>
+        <h2 id="proof-title">운영 원칙을 눈에 보이게 확인하세요.</h2>
+        <div class="badge-grid">
+          <img src="src/badge-1.png" alt="매일 아침 08시 굽기" />
+          <img src="src/badge-2.png" alt="2021년부터 홍대입구역 인근 운영" />
+          <img src="src/badge-3.png" alt="당일 판매 원칙" />
+        </div>
+      </section>
+
+      <section class="section menu-section" id="gift" aria-labelledby="menu-title">
+        <p class="section-label">메뉴와 주문</p>
+        <h2 id="menu-title">매일 먹는 빵부터 선물 세트까지 필요한 만큼 고를 수 있습니다.</h2>
+        <div class="menu-grid">
+          <article>
+            <img src="src/case-1.jpg" alt="기본 빵과 커피" />
+            <h3>기본 빵류</h3>
+            <p>식빵, 바게트, 크루아상, 소금빵</p>
+            <strong>3,000원~6,000원대</strong>
           </article>
-          <article class="benefit-card">
-            <span class="card-icon" aria-hidden="true">✓</span>
-            <h3>초보자 가능</h3>
-            <p>AI 도구가 낯선 분도 순서대로 이해할 수 있게 안내합니다.</p>
+          <article>
+            <img src="src/voice-3.jpg" alt="케이크와 디저트" />
+            <h3>케이크·디저트</h3>
+            <p>케이크, 쿠키, 타르트</p>
+            <strong>5,000원~35,000원대</strong>
           </article>
-          <article class="benefit-card">
-            <span class="card-icon" aria-hidden="true">✓</span>
-            <h3>바로 업무 적용</h3>
-            <p>보고서, 이메일, 홍보 문구, 고객 응대에 연결하는 방법을 익힙니다.</p>
+          <article>
+            <img src="src/case-3.jpg" alt="선물 세트 포장" />
+            <h3>선물 세트·단체 주문</h3>
+            <p>예산과 인원에 맞춘 구성</p>
+            <strong>20,000원부터 상담</strong>
           </article>
         </div>
-        <a class="secondary-button" href="mailto:stepmailkr@gmail.com" data-consult-button>무료 상담 신청하기</a>
+        <a class="secondary-button" href="https://www.instagram.com/bread_today" data-cta>선물 세트 상담하기</a>
       </section>
 
-      <section class="section curriculum-section" aria-labelledby="curriculum-title">
-        <p class="section-label">커리큘럼</p>
-        <h2 id="curriculum-title">업무 흐름에 맞춰 배우는 5단계 실습</h2>
-        <ol class="curriculum-list">
-          <li>
-            <strong>AI 기본 이해</strong>
-            <span>업무에 필요한 AI 개념과 활용 흐름을 잡습니다.</span>
-          </li>
-          <li>
-            <strong>문서 작성 실습</strong>
-            <span>보고서, 이메일, 회의 정리 문장을 빠르게 다듬습니다.</span>
-          </li>
-          <li>
-            <strong>기획과 마케팅</strong>
-            <span>아이디어 정리와 홍보 문구를 실습으로 완성합니다.</span>
-          </li>
-          <li>
-            <strong>자영업 활용</strong>
-            <span>고객 응대, 매장 안내, 운영 문구에 AI를 적용합니다.</span>
-          </li>
-          <li>
-            <strong>나만의 루틴</strong>
-            <span>내 업무에 맞는 반복 활용 방식을 정리합니다.</span>
-          </li>
-        </ol>
+      <section class="section usecase-section" aria-labelledby="usecase-title">
+        <p class="section-label">이럴 때 좋아요</p>
+        <h2 id="usecase-title">출근길, 선물, 회의 간식까지 상황에 맞춰 준비합니다.</h2>
+        <div class="photo-stack">
+          <figure>
+            <img src="src/case-2.jpg" alt="선물용 빵 세트를 포장하는 장면" />
+            <figcaption>감사 인사를 전하는 선물 세트</figcaption>
+          </figure>
+          <figure>
+            <img src="src/voice-1.jpg" alt="빵을 들고 미소 짓는 고객" />
+            <figcaption>아침을 든든하게 채우는 출근길 빵</figcaption>
+          </figure>
+        </div>
       </section>
 
-      <section class="section review-section" aria-labelledby="review-title">
+      <section class="section review-section" id="reviews" aria-labelledby="review-title">
         <p class="section-label">후기</p>
-        <h2 id="review-title">수강 후 이런 변화를 기대할 수 있습니다.</h2>
+        <h2 id="review-title">손님들이 좋아해 주신 이유</h2>
         <div class="review-list">
           <figure>
-            <blockquote>“AI가 어렵게만 느껴졌는데, 실습하면서 어디에 써야 할지 감이 잡혔습니다.”</blockquote>
-            <figcaption>예시 후기 · 직장인</figcaption>
+            <blockquote>빵 향이 좋고 식감이 좋아서 커피와 함께 사기 좋습니다.</blockquote>
+            <figcaption>출근길 고객 후기</figcaption>
           </figure>
           <figure>
-            <blockquote>“강의 후 바로 업무 문서 초안 작성에 활용했습니다. 시간이 확실히 줄었습니다.”</blockquote>
-            <figcaption>예시 후기 · 기획 담당자</figcaption>
+            <blockquote>받는 사람이 좋아할 조합으로 친절하게 추천해 줬습니다.</blockquote>
+            <figcaption>선물 세트 고객 후기</figcaption>
           </figure>
           <figure>
-            <blockquote>“매장 홍보 문구를 만드는 부담이 줄었고, 고객 안내문도 더 빨리 작성하게 됐습니다.”</blockquote>
-            <figcaption>예시 후기 · 자영업자</figcaption>
+            <blockquote>예산과 인원에 맞춰 깔끔하게 준비해 줘서 편했습니다.</blockquote>
+            <figcaption>단체 주문 고객 후기</figcaption>
           </figure>
         </div>
-        <p class="notice-text">위 후기는 예시 문구입니다. 실제 공개 시에는 실제 수강생 후기 여부와 사용 동의를 확인해야 합니다.</p>
+        <p class="notice-text">확인 필요: 공개 전 실제 후기 여부와 사용 동의를 확인해야 합니다.</p>
+      </section>
+
+      <section class="section order-section" aria-labelledby="order-title">
+        <p class="section-label">상담 절차</p>
+        <h2 id="order-title">DM으로 필요한 정보만 보내주시면 됩니다.</h2>
+        <ol class="step-list">
+          <li><strong>날짜</strong><span>수령 희망일과 시간</span></li>
+          <li><strong>용도</strong><span>선물, 회의, 행사, 개인 구매</span></li>
+          <li><strong>예산</strong><span>1인당 예산 또는 총예산</span></li>
+          <li><strong>수량</strong><span>인원과 필요한 세트 수</span></li>
+        </ol>
       </section>
 
       <section class="section faq-section" aria-labelledby="faq-title">
         <p class="section-label">FAQ</p>
-        <h2 id="faq-title">자주 묻는 질문</h2>
+        <h2 id="faq-title">문의 전에 많이 묻는 질문</h2>
         <div class="faq-list">
-          <details>
-            <summary>AI를 처음 써도 들을 수 있나요?</summary>
-            <p>가능합니다. 기본 개념부터 실습 순서까지 초보자 기준으로 안내합니다.</p>
+          <details open>
+            <summary>정말 오늘 구운 빵인가요?</summary>
+            <p>매일 아침 직접 굽고 당일 판매를 원칙으로 운영합니다.</p>
           </details>
           <details>
-            <summary>노트북을 꼭 가져가야 하나요?</summary>
-            <p>실습 중심 강의이므로 노트북 지참을 권장합니다.</p>
+            <summary>선물용 포장도 가능한가요?</summary>
+            <p>예산, 받는 사람, 용도에 맞춰 보기 좋고 먹기 좋은 구성을 안내합니다.</p>
           </details>
           <details>
-            <summary>직장인과 자영업자 모두에게 맞나요?</summary>
-            <p>문서, 홍보, 고객 응대처럼 공통 업무 예제를 중심으로 다룹니다.</p>
+            <summary>단체 주문은 언제까지 문의해야 하나요?</summary>
+            <p>수량과 구성에 따라 달라질 수 있어 필요한 날짜를 먼저 알려주시면 확인해 드립니다.</p>
           </details>
           <details>
-            <summary>강의 후 자료를 받을 수 있나요?</summary>
-            <p>상담 시 제공 자료와 강의 구성 범위를 함께 안내합니다.</p>
-          </details>
-          <details>
-            <summary>상담 신청 후 절차는 어떻게 되나요?</summary>
-            <p>신청 내용을 확인한 뒤 강의 일정과 적합한 구성을 안내드립니다.</p>
+            <summary>위치는 어디인가요?</summary>
+            <p>홍대입구역 인근으로 안내되어 있으며, 정확한 주소는 공개 전 최종 확인이 필요합니다.</p>
           </details>
         </div>
       </section>
 
-      <section id="consult" class="consult-section" aria-labelledby="consult-title">
-        <p class="section-label">무료 상담</p>
-        <h2 id="consult-title">우리 업무에 맞는 AI 강의가 필요하다면 상담부터 받아보세요.</h2>
-        <p>버튼을 누르면 이메일 앱이 열리고 상담 신청 메일을 작성할 수 있습니다.</p>
-        <a class="primary-button" href="mailto:stepmailkr@gmail.com" data-consult-button>무료 상담 신청하기</a>
-        <div class="privacy-note" aria-label="개인정보 수집 안내">
-          <strong>개인정보 수집 안내 확인 필요</strong>
-          <p>수집 항목: 이름, 연락처, 문의 내용</p>
-          <p>이용 목적: AI 강의 상담 및 문의 응대</p>
-          <p>보유 기간: 상담 완료 후 3개월 또는 관련 법령에 따른 보관 기간</p>
-          <p>이메일로 보내는 개인정보는 상담 응대 목적으로만 사용됩니다. 별도 폼을 연결할 경우 개인정보 처리방침 URL을 추가해야 합니다.</p>
+      <section class="final-cta" id="contact" aria-labelledby="final-title">
+        <p class="section-label">문의</p>
+        <h2 id="final-title">오늘 구운 빵이 필요하다면 DM으로 편하게 물어보세요.</h2>
+        <p>선물 세트와 단체 주문은 날짜, 예산, 수량을 함께 보내주시면 더 빠르게 안내할 수 있습니다.</p>
+        <a class="primary-button" href="https://www.instagram.com/bread_today" data-cta>인스타그램 DM 문의하기</a>
+        <div class="business-note">
+          <strong>공개 전 확인 필요</strong>
+          <p>인스타그램 계정, 실제 주소, 전화번호, 영업시간, 가격 범위, 후기 사용 동의, 사업자 정보를 최종 확인해야 합니다.</p>
         </div>
       </section>
     </main>
 
-    <nav class="floating-cta" aria-label="빠른 상담 신청">
-      <a href="mailto:stepmailkr@gmail.com" data-consult-button>무료 상담 신청하기</a>
+    <footer class="site-footer">
+      <div>
+        <strong>오늘도빵집</strong>
+        <p>서울 마포구 홍대입구역 인근 · 매일 08:00~20:00 · 월요일 휴무</p>
+      </div>
+      <a href="https://www.instagram.com/bread_today">@bread_today</a>
+    </footer>
+
+    <nav class="floating-cta" aria-label="빠른 문의">
+      <a href="https://www.instagram.com/bread_today" data-cta>인스타그램 DM 문의하기</a>
     </nav>
 
-    <script src="ai-lecture-lp.js"></script>
+    <script src="today-bakery-lp.js"></script>
   </body>
 </html>
