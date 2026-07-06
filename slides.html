@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>codex-lp-builder-ko 제품판 소개 슬라이드</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#0f172a;color:#e5e7eb}.slide{min-height:100vh;padding:72px 8vw;display:flex;flex-direction:column;justify-content:center;border-bottom:1px solid rgba(255,255,255,.12)}.eyebrow{color:#93c5fd;font-weight:900;letter-spacing:.05em}h1,h2{margin:14px 0 18px;line-height:1.12}h1{font-size:56px}h2{font-size:44px}.lead{font-size:22px;color:#cbd5e1;max-width:900px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:26px}.card,.step{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);border-radius:22px;padding:24px}.card b,.step b{font-size:20px}.card p,.step p,li{color:#cbd5e1}.n{width:36px;height:36px;border-radius:50%;background:#2563eb;display:grid;place-items:center;font-weight:900;margin-bottom:14px}.prompt{background:#020617;border:1px solid rgba(255,255,255,.16);border-radius:20px;padding:24px;font-size:20px;white-space:pre-wrap}.highlight{color:#bfdbfe}.foot{color:#94a3b8}@media(max-width:850px){.slide{padding:42px 22px}h1{font-size:38px}h2{font-size:32px}.grid{grid-template-columns:1fr}.lead{font-size:18px}}
+</style>
+</head>
+<body>
+<section class="slide">
+  <div class="eyebrow">codex-lp-builder-ko 100점 제품판</div>
+  <h1>한국 실무자가 바로 판매·교육·배포에 쓰는 모바일 LP 제작 키트</h1>
+  <p class="lead">Codex에서 사전 인터뷰로 기획을 고정하고, 한국 시장에 맞는 모바일 랜딩페이지를 제작·검수·배포 전 확인까지 이어갑니다.</p>
+</section>
+<section class="slide">
+  <div class="eyebrow">문제</div>
+  <h2>AI에게 바로 “LP 만들어줘”라고 하면 왜 흔들릴까요?</h2>
+  <div class="grid">
+    <div class="card"><b>전제가 흐림</b><p>누구에게 무엇을 팔고 어떤 행동을 유도할지 고정되지 않습니다.</p></div>
+    <div class="card"><b>문구가 뜬구름</b><p>타깃의 상황과 증거가 부족해 한국 고객에게 덜 와닿습니다.</p></div>
+    <div class="card"><b>검수가 어려움</b><p>CTA, 폼, 모바일 폭, 개인정보 문구 등 합격 기준이 모호합니다.</p></div>
+  </div>
+</section>
+<section class="slide">
+  <div class="eyebrow">해결 방식</div>
+  <h2><span class="highlight">사전 인터뷰 → 사양 확정 → 제작 루프</span>로 갑니다</h2>
+  <div class="grid">
+    <div class="step"><div class="n">1</div><b>질문</b><p>한 번에 하나씩 사업, 타깃, 오퍼, CTA를 확인합니다.</p></div>
+    <div class="step"><div class="n">2</div><b>확정</b><p><code>lp-spec.md</code>에 LP 사양을 기록합니다.</p></div>
+    <div class="step"><div class="n">3</div><b>제작</b><p>이미지 슬라이스와 HTML로 모바일 LP를 만듭니다.</p></div>
+  </div>
+</section>
+<section class="slide">
+  <div class="eyebrow">100점 제품판 추가 요소</div>
+  <h2>한국 실무용 기준을 문서로 고정했습니다</h2>
+  <ul class="lead">
+    <li>업종별 CTA 패턴</li>
+    <li>개인정보·표시광고·후기 문구 템플릿</li>
+    <li>390px/430px 모바일 디자인 시스템</li>
+    <li>배포 전 체크리스트</li>
+    <li>교육·검수용 테스트 시나리오와 예시 사양서</li>
+  </ul>
+</section>
+<section class="slide">
+  <div class="eyebrow">실행 프롬프트</div>
+  <h2>Codex에서 이렇게 시작합니다</h2>
+  <div class="prompt">한국형 모바일 LP 만들어줘.
+먼저 lp-grilling으로 사전 인터뷰를 진행하고,
+질문은 한 번에 하나씩만 해줘.
+내 답변을 바탕으로 lp-spec.md를 만든 뒤,
+내가 승인하면 lp-builder로 제작과 QA를 진행해줘.</div>
+  <p class="foot">중요: 파일 하나가 아니라 폴더 전체를 Codex에서 열어야 합니다.</p>
+</section>
+</body>
+</html>

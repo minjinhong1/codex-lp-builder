@@ -1,0 +1,4 @@
+interface:
+  display_name: "한국형 모바일 LP 빌더(lp-builder)"
+  short_description: "확정된 lp-spec.md를 기준으로 한국형 모바일 LP를 이미지 슬라이스와 HTML로 제작하고 QA합니다."
+  default_prompt: "lp-builder로 lp-spec.md의 사양에 맞춰 한국형 스마트폰 우선 LP를 만들어 주세요. Phase 1=세로형 이미지 슬라이스 4~8장 생성, Phase 2=index.html에서 CTA/영상/폼을 실제 링크와 버튼으로 기능화, Phase 3=390px/430px 모바일 폭에서 QA, Phase 4=배포 전 사람 승인 확인까지 진행해 주세요."

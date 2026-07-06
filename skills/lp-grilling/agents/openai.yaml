@@ -1,0 +1,4 @@
+interface:
+  display_name: "한국형 LP 사전 인터뷰(lp-grilling)"
+  short_description: "LP 제작 전에 한 번에 하나씩 질문하며 사업, 타깃, 오퍼, CTA를 확정하고 lp-spec.md로 정리합니다."
+  default_prompt: "lp-grilling으로 앞으로 만들 한국형 모바일 LP의 사양을 사전 인터뷰해 주세요. 플랜 모드에서 질문은 한 번에 1개만 하고, 각 질문에는 추천안을 함께 제시해 주세요. 사업 내용, 타깃, 오퍼, CTA, 참고 URL, 신뢰 자료, 법적 주의사항 순서로 확인한 뒤 lp-spec.md로 정리해 주세요."
